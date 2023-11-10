@@ -1,0 +1,47 @@
+// CopyFile(ListPack).txt
+
+groupFile = LabelNameGroupFile.text
+if groupFile == ""
+{
+	LabelNameGroupFile.text = "Имя списка файлов"
+	NameGroupFile.text = "CopyFile(ListFile).txt"
+	return
+}
+groupFile = NameGroupFile.text
+if groupFile == ""
+{
+	Title.text = "Не задано имя списка файлов"
+	return
+}
+nameGroupFile = NameGroupFile.text
+PathNameFile = ^Path + nameGroupFile
+
+contentFiles = FileRead(PathNameFile)
+if contentFiles == ""
+{
+	Title.text = "Нет файла Movement(MapList).txt"
+	return
+}
+delimiterEndFile = "§<"
+delimiterBeginFile = ">±" + ^DelimiterNewLine + ^DelimiterNewLine
+strArchiv = ""
+^ArrayNameObject = Components(contentFiles, ^DelimiterNewLine)
+countFiles = CountElementsOfArray(^ArrayNameObject)
+Struct TableSelectFiles { ViewFile, NameFile }
+cycle i = 0 ; i < countFiles
+{
+	nameFile = ^ArrayNameObject[i]
+	contentFile = FileRead(^Path+nameFile)
+	strArchiv = strArchiv + contentFile + ^DelimiterNewLine + delimiterEndFile + nameFile + delimiterBeginFile
+	TableSelectFiles.ViewFile = "✅️"
+	TableSelectFiles.NameFile = nameFile
+	ListFile[i] = TableSelectFiles
+}
+nameArxivFile = "CopyFile(Arxiv).txt"     
+kv = FileWrite(^Path+nameArxivFile, strArchiv)
+if kv != 0
+{
+	Title.text = "Ошибка записи файла"
+	return
+}
+Title.text = "Записан файл " + nameArxivFile
