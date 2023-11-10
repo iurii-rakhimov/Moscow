@@ -1,0 +1,9 @@
+CopyFile	PackFile	Label	@	10	105	300	20	PackFile	Упаковать группу в файл	79:100:160	255:255:255	10	12	systemFont	center	Label		vertically		
+CopyFile	LabelNameGroupFile	Label	@	0	51	140	20		Имя группы файлов	255:255:255	0:0:0	0	12	systemFont	center	Label		vertically		
+CopyFile	NameGroupFile	TextField	@	150	53	150	18				242:242:242	2:2:2	0	12	systemFont		vertically	vertically		
+CopyFile	Title	Label	@	25	27	260	20	Title	Title	242:242:242	0:0:0	0	8	systemFont	center	Label		vertically		
+CopyFile	ExitCopy	Image	@	290	25	25	25	ExitCopy	242:242:242	242:242:242	0	Exit40x40		vertically	
+CopyFile	ListFile	TableView	@	2	180	315	385		CopyFirebase&NameFile&Label&@&17&3&203&14&SelectFile&текст&255:255:255&0:0:0&0&8&systemFont&влево&Label&&vertically&&#CopyFirebase&ViewFile&Label&@&0&0&14&21&&W&255:255:255&2:2:2&0&8&systemFont&center&Label&&vertically&&	vertically										
+CopyFile	SelectFileFromFolder	Label	@	10	80	300	20	SelectFileFromFolder	Выбрать файлы группы из папки	79:100:160	255:255:255	10	12	systemFont	center	Label		vertically		
+CopyFile	UnPack	Label	@	10	130	300	20	UnPack	Распаковать файлы на устройство	79:100:160	255:255:255	10	12	systemFont	center	Label		vertically		
+CopyFile	ListPack	Label	@	10	155	300	20	ListPack	Упапаковать спискок файлов на устройство	79:100:160	255:255:255	10	12	systemFont	center	Label		vertically		
