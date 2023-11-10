@@ -1,0 +1,32 @@
+// CopyFile(SelectFileFromFolder).txt
+groupFile = LabelNameGroupFile.text
+if groupFile == ""
+{
+	LabelNameGroupFile.text = "Имя группы файлов"
+	NameGroupFile.text = ""
+	return
+}
+groupFile = NameGroupFile.text
+if groupFile == ""
+{
+	Title.text = "Не задана группа файлов"
+	return
+}
+wait 200, message = "Ждите !"
+
+listFilesFolder = GetListFilesFolder(^Path)
+arrayFiles = Components(listFilesFolder, ^DelimiterNewLine)
+^ArrayNameObject = CreateArrayContainingSubstring(arrayFiles, groupFile)
+
+Sort(^ArrayNameObject,"MinMax")
+
+Struct TableSelectFiles { ViewFile, NameFile }
+countFiles = CountElementsOfArray(^ArrayNameObject)
+cycle i = 0 ; i < countFiles
+{
+	nameFile = ^ArrayNameObject[i]
+	TableSelectFiles.ViewFile = "✅️"
+	TableSelectFiles.NameFile = nameFile
+	ListFile[i] = TableSelectFiles
+}
+Title.text = "Выбрано " + countFiles + " файлов"
