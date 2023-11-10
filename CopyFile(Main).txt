@@ -1,0 +1,9 @@
+// CopyFile(Main).txt
+
+Title.text = "Упаковка и распаковка файлов"
+
+^Path = GetPathDirectoryDocument()
+^DelimiterNewLine = IntToChar(10)
+
+HideObject("NameGroupFile")
+LabelNameGroupFile.text = ""
