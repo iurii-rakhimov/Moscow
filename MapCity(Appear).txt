@@ -1,0 +1,39 @@
+// MapCity(Appear).txt
+
+ShowObject("ListExcursion")
+arrayProperty = CreateArrayContainingSubstring(^ArrayExcursion, ^NameMovementMapTap)
+strTitle = arrayProperty[0]
+arrayProperty = Components(strTitle, "📍")
+strTitle = arrayProperty[2]
+Title.text = strTitle
+
+cycle i = 1 ; i < 5
+{
+	cycle j = 1 ; j < 5
+	{
+		nameMap = "MapCity" + j + i
+		n = GetIndexArrayContainingText(^ArrayExcursion, nameMap)
+		if n < 0
+		{
+			continue
+		}
+		adrMap = ^ArrayExcursion[n]
+		arrayProperty = Components(adrMap, "📍")
+		adrMap = arrayProperty[1]
+		strData = nameMap + ".File=" + ^DelimiterApostrof + adrMap + ^DelimiterApostrof
+        CompilationExecution(strData)
+	}
+}
+LineHorizontally1.text = ""
+LineHorizontally2.text = ""
+LineHorizontally3.text = ""
+LineVertically1.text = ""
+LineVertically2.text = ""
+LineVertically3.text = ""
+if ^FlagMapCity == 1
+{
+	LineTapHorizontally1.text = ""
+	LineTapHorizontally2.text = ""
+	LineTapVertically1.text = ""
+	LineTapVertically2.text = ""
+}
