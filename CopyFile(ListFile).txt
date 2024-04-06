@@ -1,3 +1,0 @@
-ListExcursion(SelectExcursion).txt
-ListExcursion(Appear).txt
-Movement(MapList).txt
