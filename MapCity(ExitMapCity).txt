@@ -1,3 +1,0 @@
-// MapCity(ExitMapCity).txt
-
-ExitForm
