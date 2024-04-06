@@ -1,6 +1,0 @@
-ListExcursion	Title	Label	@	40	25	200	20	Title	Title	242:242:242	0:0:0	0	10	systemFont	center	Label		vertically		
-ListExcursion	Title	Label	@	160	25	220	20	Title	Title	242:242:242	0:0:0	0	10	systemFont	center	Label		horizontally		
-ListExcursion	ListExcursion	TableView	@	3	51	315	510		Movement&NameExcursion&Label&@&4&3&217&14&SelectExcursion&текст&79:100:160&255:255:255&7&8&systemFont&center&Label&&vertically&&#Movement&Movement0000&Label&@&0&0&4&21&&&255:255:255&2:2:2&0&8&systemFont&center&Label&&vertically&&	vertically										
-ListExcursion	ListExcursion	TableView	@	10	51	550	260		Movement&NameExcursion&Label&@&4&3&389&14&SelectExcursion&текст&79:100:160&255:255:255&7&6&systemFontBold&center&Label&&horizontally&&#Movement&Movement0000&Label&@&0&0&4&21&&&242:242:242&2:2:2&0&8&systemFont&center&Label&&horizontally&&	horizontally										
-ListExcursion	ExitListExcursion	Image	@	280	23	25	25	ExitListExcursion	242:242:242	242:242:242	0	Exit40x40		vertically	
-ListExcursion	ExitListExcursion	Image	@	500	23	25	25	ExitListExcursion	242:242:242	242:242:242	0	Exit40x40		horizontally	
