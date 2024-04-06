@@ -1,3 +1,0 @@
-// CopyFile(ExitCopy).txt
-
-ExitForm
