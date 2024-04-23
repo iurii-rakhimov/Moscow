@@ -257,6 +257,9 @@ MapCity33📍https://ic.pics.livejournal.com/yury_rakhimov/94109005/48652/48652_
 55.760000, 37.626000-3📍https://ic.pics.livejournal.com/yury_rakhimov/94109005/96266/96266_original.png📍https://github.com/iurii-rakhimov/Moscow/blob/main/MapObject(55.760000%2C37.626000-3).txt📍
 55.760000, 37.637600📍https://ic.pics.livejournal.com/yury_rakhimov/94109005/96566/96566_original.png📍https://github.com/iurii-rakhimov/Moscow/blob/main/MapObject(55.760000%2C37.637600-List).txt📍
 55.760000, 37.637600-0📍https://ic.pics.livejournal.com/yury_rakhimov/94109005/96566/96566_original.png📍https://github.com/iurii-rakhimov/Moscow/blob/main/MapObject(55.760000%2C37.637600-0).txt📍
+55.760000, 37.637600-1📍https://ic.pics.livejournal.com/yury_rakhimov/94109005/96566/96566_original.png📍https://github.com/iurii-rakhimov/Moscow/blob/main/MapObject(55.760000%2C37.637600-1).txt📍
+55.760000, 37.637600-2📍https://ic.pics.livejournal.com/yury_rakhimov/94109005/96566/96566_original.png📍https://github.com/iurii-rakhimov/Moscow/blob/main/MapObject(55.760000%2C37.637600-2).txt📍
+55.760000, 37.637600-3📍https://ic.pics.livejournal.com/yury_rakhimov/94109005/96566/96566_original.png📍https://github.com/iurii-rakhimov/Moscow/blob/main/MapObject(55.760000%2C37.637600-3).txt📍
 55.760000, 37.649200📍https://ic.pics.livejournal.com/yury_rakhimov/94109005/100222/100222_original.png📍https://github.com/iurii-rakhimov/Moscow/blob/main/MapObject(55.760000%2C37.649200-List).txt📍
 55.760000, 37.649200-0📍https://ic.pics.livejournal.com/yury_rakhimov/94109005/100222/100222_original.png📍https://github.com/iurii-rakhimov/Moscow/blob/main/MapObject(55.760000%2C37.649200-0).txt📍
 55.760000, 37.649200-1📍https://ic.pics.livejournal.com/yury_rakhimov/94109005/100222/100222_original.png📍https://github.com/iurii-rakhimov/Moscow/blob/main/MapObject(55.760000%2C37.649200-1).txt📍
