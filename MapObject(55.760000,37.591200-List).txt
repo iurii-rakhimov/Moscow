@@ -1,6 +1,0 @@
-MapObject(55.760000, 37.591200-0).txt
-MapObject(55.760000, 37.591200-1).txt
-MapObject(55.760000, 37.591200-2).txt
-MapObject(55.760000, 37.591200-3).txt
-MapObject(55.760000, 37.591200-4).txt
-MapObject(55.760000, 37.591200-5).txt
