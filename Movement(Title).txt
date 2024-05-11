@@ -1,0 +1,8 @@
+// Movement(Title).txt 
+
+A = -1
+if A == -1
+{
+	A = 2
+}
+Title.Text = "⭐️ " + A
