@@ -3,3 +3,5 @@
 Title.text = "MapTap11 GraphicsLine"
 
 GraphicsLine(100, 100, 140, 140, 1, "Red")
+
+GraphicsRect(200, 200, 240, 240, "Red")
