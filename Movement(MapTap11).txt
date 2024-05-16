@@ -1,7 +1,9 @@
 // Movement(MapTap11).txt
 
-Title.text = "MapTap11 GraphicsLine"
+Title.text = "Загрузка карты MapTap11"
 
 GraphicsLine(100, 100, 140, 140, 1, "Red")
 
-GraphicsRect(200, 200, 240, 240, "Red")
+GraphicsRectFillColor(100, 200, 200, 240, "Red")
+
+GraphicsRectStrokeBorder(100, 300, 200, 340, "Red")
