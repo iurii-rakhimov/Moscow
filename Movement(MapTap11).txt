@@ -4,8 +4,8 @@ Title.text = "Загрузка карты MapTap11"
 
 GraphicsLine(100, 100, 140, 140, 3, "Red")
 
-GraphicsRectFillColor(100, 200, 200, 240, "Red")
+GraphicsRectStrokeBorder(100, 200, 200, 300, 0 , "Red")
 
-GraphicsRectStrokeBorder(100, 300, 200, 340, 3 , "Red")
+GraphicsRectStrokeBorder(100, 300, 200, 400, 3 , "Red")
 
 GraphicsArc(400, 600, 100, 0, -90, 3 , "Red")
