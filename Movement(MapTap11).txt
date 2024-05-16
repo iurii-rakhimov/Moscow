@@ -8,4 +8,4 @@ GraphicsRectFillColor(100, 200, 200, 240, "Red")
 
 GraphicsRectStrokeBorder(100, 300, 200, 340, 3 , "Red")
 
-GraphicsArc(400, 600, 100, -90, 90, 3 , "Red")
+GraphicsArc(400, 600, 100, -180, 180, 3 , "Red")
