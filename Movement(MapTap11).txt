@@ -11,3 +11,6 @@ GraphicsRect(100, 300, 200, 350, 5 , "Red")
 GraphicsArc(400, 600, 100, 0, 4, 1 , "Red")
 
 GraphicsTriangle(100, 800, 200, 820, 150, 900, 1 , "Red")
+strNameFileURL = 'https://github.com/iurii-rakhimov/Moscow/blob/main/Movement(Title).txt'
+contentFile = FileReadWithURL(strNameFileURL)
+convertFile = ConvertStrGitHubUrl(contentFile)
